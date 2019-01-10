@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+    <script type="">
+        let speed = 81;
+
+        if (speed <= 20) {
+            console.log ( 'Черепаха, давай разгоняйся!' );
+        }
+        else if (speed < 40) {
+            console.log ( 'Наконец-то вспомнил про 2-ю передачу!' );
+        }
+        else if (speed <= 60) {
+            console.log ( 'Ну, это уже куда ни шло' );
+        }
+        else if (speed < 80) {
+            console.log ( 'Здесь можно и быстрее! 5-ю давай!' );
+        }
+        else {
+            console.log ( 'Воу-воу! Полегче, Шумахер :)' );
+        }
+    </script>
+    <script>
+        let door = 'open'
+        let alarm = 'off'
+
+        if (door == 'close' && alarm == 'on') {
+            console.log ( 'Alarm turned on!' );
+        }
+
+        else if (door == 'open' && alarm == 'on') {
+            console.log ( 'ALARM!' );
+        }
+
+        else if (door == 'open' && alarm == 'off') {
+            console.log ( 'OK!' );
+        }
+
+        else if (door == 'close' && alarm == 'off') {
+            console.log ( 'Alarm turned off!' );
+        }
+    </script>
+</body>
+</html> 
